@@ -1,0 +1,68 @@
+#mainNav {
+  position: fixed;
+}
+
+#navbarResponsive {
+  text-align: right;
+}
+
+img, video {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 0.8rem;
+}
+
+.fa {
+  color: #4187D7; /* blue */
+  margin-top: 5px;
+}
+
+.lead {
+  font-size: 1.05rem;
+  line-height: 1.7rem;
+}
+
+.lead-2 {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+.feature-group {
+  margin: 50px 0;
+}
+
+.feature-1-col {
+  margin: 2% 0;
+}
+
+.feature-2-col {
+  margin: 3% 0;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .fa {
+    margin: 8% 0;
+  }
+
+  .feature-1-col, .feature-2-col {
+    text-align: center;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
